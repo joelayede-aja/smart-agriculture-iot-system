@@ -285,8 +285,9 @@ Embedded Systems and IoT Research Enthusiast
 - Smart Agriculture
 - Embedded Systems
 - Internet of Things (IoT)
-- Environmental Monitoring
 - Artificial Intelligence
+- Edge Computing
+- Sensor Networks
 
 ### Contact
 - GitHub: https://github.com/joelayede-aja
