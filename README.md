@@ -123,3 +123,177 @@ smart-agriculture-iot-system/
 ├── grafana/
 ├── web-dashboard/
 └── data/
+```
+---
+
+## Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/joelayede-aja/smart-agriculture-iot-system.git
+```
+
+---
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd smart-agriculture-iot-system
+```
+
+---
+
+### 3. Create a Python Virtual Environment (Optional but Recommended)
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+#### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+---
+
+### 4. Install Required Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 5. Connect the Hardware Components
+
+Connect:
+- Raspberry Pi
+- Multiparameter soil sensor
+- ESP8266 module
+- Water level sensor
+- LCD display
+- Environmental monitoring sensors
+
+according to the project wiring configuration.
+
+---
+
+### 6. Configure Serial Communication
+
+Verify the serial communication port used by the sensors.
+
+Example:
+
+```python
+port = "/dev/ttyUSB0"
+baudrate = 9600
+```
+
+---
+
+### 7. Run the Application
+
+```bash
+python app.py
+```
+
+---
+
+### 8. Access the Monitoring Dashboard
+
+Open your browser and navigate to:
+
+```text
+http://127.0.0.1:5000
+```
+
+---
+
+### 9. Launch Grafana Dashboard
+
+Start Grafana service:
+
+```bash
+sudo systemctl start grafana-server
+```
+
+Access Grafana dashboard:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## Default Grafana Credentials
+
+```text
+Username: admin
+Password: admin
+```
+
+You will be prompted to change the password after the first login.
+
+---
+
+## Research Contribution
+
+This project contributes to research in:
+
+- Smart Agriculture
+- Precision Agriculture
+- Internet of Things (IoT)
+- Embedded Systems
+- Environmental Monitoring
+- Precision Soil Analysis
+- Sustainable Agricultural Technologies
+
+The project specifically focuses on low-cost and scalable environmental monitoring solutions adapted to resource-constrained environments.
+
+---
+
+## Future Improvements
+
+- Automated irrigation system
+- AI-based environmental prediction
+- Edge computing integration
+- Cloud synchronization
+- Mobile application support
+- Solar-powered optimization
+- Machine learning for environmental analysis
+
+---
+
+## Author
+
+### Joël Ayede Arindu
+
+Computer Science Graduate  
+Embedded Systems and IoT Research Enthusiast
+
+### Research Interests
+- Smart Agriculture
+- Embedded Systems
+- Internet of Things (IoT)
+- Environmental Monitoring
+- Artificial Intelligence
+
+### Contact
+- GitHub: https://github.com/joelayede-aja
+- LinkedIn: https://linkedin.com/in/joel-ayede
+
+---
+
+## License
+
+This project is intended for academic, educational, and research purposes.
